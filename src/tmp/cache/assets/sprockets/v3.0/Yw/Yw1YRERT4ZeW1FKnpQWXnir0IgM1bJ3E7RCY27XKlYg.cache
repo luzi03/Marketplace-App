@@ -1,0 +1,8 @@
+I"Ÿ(function() {
+  jQuery(function() {
+    $('#listing_avaialable_from').datepicker();
+    return $('#listing_avaialable_to').datepicker();
+  });
+
+}).call(this);
+:ET

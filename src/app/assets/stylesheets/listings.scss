@@ -1,0 +1,198 @@
+// Place all the styles related to the Listings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*listings index*/
+// .btn 
+// .btn-primary {
+//   color: #fff;
+//   background-color: #fd7e14;
+//   border-color: #fd7e14;
+// }
+
+
+.image-tag {
+  max-width: 10px;
+  max-height: 100px;
+}
+
+.projects-clean {
+    color: #313437;
+    background-color: #fff;
+  }
+  
+  .projects-clean p {
+    color: #7d8285;
+  }
+  
+  .projects-clean h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+  }
+  
+  @media (max-width:767px) {
+    .projects-clean h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px;
+    }
+  }
+  
+  .projects-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .projects-clean .intro p {
+    margin-bottom: 0;
+  }
+  
+  .projects-clean .projects {
+    padding-bottom: 40px;
+  }
+  
+  .projects-clean .item {
+    text-align: center;
+    padding-top: 50px;
+    min-height: 425px;
+  }
+  
+  .projects-clean .item .name {
+    font-weight: bold;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    color: inherit;
+  }
+  
+  .projects-clean .item .description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  /* end of listings index*/
+
+
+ /*single listing*/
+ 
+  .article-dual-column {
+    color: #56585b;
+    background-color: #fff;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+  }
+  
+  .article-dual-column .intro {
+    font-size: 16px;
+    margin: 0 auto 30px;
+  }
+  
+  .article-dual-column .intro h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    line-height: 1.5;
+    color: inherit;
+    margin-top: 25px;
+  }
+  
+  .article-dual-column .intro p {
+    color: #929292;
+    font-size: 12px;
+  }
+  
+  .article-dual-column .intro p .by {
+    font-style: italic;
+  }
+  
+  .article-dual-column .intro p .date {
+    text-transform: uppercase;
+    padding: 4px 0 4px 10px;
+    margin-left: 10px;
+    border-left: 1px solid #ddd;
+  }
+  
+  .article-dual-column .intro p a {
+    color: #333;
+    text-transform: uppercase;
+    padding-left: 3px;
+  }
+  
+  .article-dual-column .intro img {
+    margin-top: 25px;
+  }
+  
+  .article-dual-column .text p {
+    margin-bottom: 20px;
+    line-height: 1.45;
+  }
+  
+  @media (min-width:768px) {
+    .article-dual-column .text p {
+      font-size: 16px;
+    }
+  }
+  
+  .article-dual-column .text h2 {
+    margin-top: 28px;
+    margin-bottom: 20px;
+    line-height: 1.45;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @media (min-width:768px) {
+    .article-dual-column .text h2 {
+      font-size: 20px;
+    }
+  }
+  
+  .article-dual-column .text figure {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .article-dual-column .text figure img {
+    margin-bottom: 12px;
+    max-width: 100%;
+  }
+  
+  @media (max-width:767px) {
+    .article-dual-column .toc {
+      border: 1px solid #d3d3d3;
+      padding: 20px 0 15px;
+      margin-bottom: 20px;
+      border-width: 1px 0;
+    }
+  }
+  
+  .article-dual-column .toc p {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .article-dual-column .toc ul {
+    padding-left: 20px;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  
+  .article-dual-column .toc li {
+    padding: 2px 0;
+  }
+  
+  .article-dual-column .toc a {
+    color: inherit;
+  }
+  
+/*end of single listing*/  
+
+.pagination {
+  justify-content: center;
+}

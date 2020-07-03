@@ -1,0 +1,17 @@
+I"á(function() {
+  jQuery(function() {});
+
+  $('#listing_avaialable_from').datepicker();
+
+  ({
+    dateFormat: 'yy-mm-dd'
+  });
+
+  $('#listing_avaialable_to').datepicker();
+
+  ({
+    dateFormat: 'yy-mm-dd'
+  });
+
+}).call(this);
+:ET

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>homepagecampingo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=90f8bd7bd325d5a1bbe7cb95eaa88ec1">
+    <link rel="stylesheet" href="/assets/stylesheets/application.scss">
+    <link rel="stylesheet" href="/assets/stylesheets/pages_home.scss">
+    <script src="https://use.fontawesome.com/88b5137ddf.js"></script>
+
+</head>
+
+<body class="text-dark">
+    <!-- Start: Header Dark -->
+    <div>
+        <div class="header-dark">
+            <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+                <div class="container"><a class="navbar-brand" href="/">Campingo</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#"></a></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Explore&nbsp;</a>
+                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation"  <%= link_to "Listings", listings_path %><a class="dropdown-item" role="presentation" 
+                                <%= link_to 'Users', users_path %><a class="dropdown-item" role="presentation"   <%= link_to "Chat", conversations_path %></a></div>
+                            </li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                        <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                        </form><span class="navbar-text"><a class="btn btn-light action-button" role="button" <%= link_to "Login", new_user_session_path %>
+                        </form><span class="navbar-text"><a class="btn" role="button" <%= link_to "Register", new_user_registration_path %>
+                        
+                    </div>
+                        
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <h1 class="text-center">Adventure starts here.</h1>
+                        <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" src="http://localhost:3000/assets/homepage/homepage1.jpg" alt="Slide Image"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" src="http://localhost:3000/assets/homepage/homepage2.jpg" alt="Slide Image"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" src="http://localhost:3000/assets/homepage/homepage3.jpg" alt="Slide Image"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" src="http://localhost:3000/assets/homepage/homepage4.jpg" alt="Slide Image"></div>
+                                <div class="carousel-item"><img class="w-100 d-block" src="http://localhost:3000/assets/homepage/homepage5.jpg" alt="Slide Image"></div>
+                            </div>
+                            <div>
+                                <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>
+                                <!-- End: Previous -->
+                                <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>
+                                <!-- End: Next -->
+                            </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-1" data-slide-to="1" class="active"></li>
+                                <li data-target="#carousel-1" data-slide-to="2"></li>
+                                <li data-target="#carousel-1" data-slide-to="3"></li>
+                                <li data-target="#carousel-1" data-slide-to="4"></li>
+                                <li data-target="#carousel-1" data-slide-to="5"></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: Header Dark -->
+    <h1></h1>
+    <p></p>
+    <br>
+    <br>
+    <!-- Start: Highlight Clean -->
+    <div class="highlight-clean">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">About us</h2>
+                <p class="text-center">Campingo is a marketplace where you can lease all the camping gear and equipment needed for your outdoor adventures. Campingo is a free an affordable option for those seeking to explore without the hassle of buying all the expensive equipment and storage </p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Buttons -->
+
+            <div class="buttons">
+            <div class= "text-center"><%= link_to "Login", new_user_session_path, class: "btn btn-primary"%><%= link_to "Register", new_user_registration_path, class: "btn btn-light"%>
+        </div>
+    </div>
+            <!-- End: Buttons -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- End: Highlight Clean -->
+    <!-- Start: Features Clean -->
+    <div class="text-dark features-clean">
+        <div class="container bg-light">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Features</h2>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Features -->
+            <div class="row features">
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fas fa-map-marked fa-sm fa-spin"></i></span>
+                    <h3 class="name">Works everywhere</h3>
+                    <p class="description">Find camping gear wherever you are</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fas fa-leaf fa-sm fa-spin"></i></span>
+                    <h3 class="name">Eco friendly</h3>
+                    <p class="description">Lease your gear to save money and help protect the environment from waste</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fas fa-compass fa-sm fa-spin"></i></span>
+                    <h3 class="name">Search made easy</h3>
+                    <p class="description">Find the items you want with Campingos cleaver search tools</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fab fa-stripe fa-sm fa-spin"></i></span>
+                    <h3 class="name">Pay Safely</h3>
+                    <p class="description">We use stripe as a payment method, which a safe and reliable software to make payments online</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fas fa-paper-plane fa-sm fa-spin"></i></span>
+                    <h3 class="name">Fast</h3>
+                    <p class="description">Campingo is a great option for your last minute roadtrips</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><span style="font-size: 3em; color: #17a2b8;"><i class="fas fa-envelope-open-text fa-sm fa-spin"></i></span>
+                    <h3 class="name">In app messages</h3>
+                    <p class="description">Interact with others or enquire about listings through the built in messaging service</p>
+                </div>
+            </div>
+            <!-- End: Features -->
+        </div>
+    </div>
+    <!-- End: Features Clean -->
+    <!-- Start: Projects Clean -->
+    <div class="projects-clean">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Camping gear</h2>
+                <p class="text-center">Lease and Lend camping gear and equipment by categories</p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Projects -->
+            <div class="row projects">
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/tent.jpg">
+                    <h3 class="name">TENTS</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/kitchen.jpg">
+                    <h3 class="name">KITCHEN</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/seating.jpg">
+                    <h3 class="name">SEATING</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/bedding.jpg">
+                    <h3 class="name">BEDDING</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/lights.jpg">
+                    <h3 class="name">LIGHTING</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="http://localhost:3000/assets/categories/others.jpg">
+                    <h3 class="name">OTHERS</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+            </div>
+            <!-- End: Projects -->
+        </div>
+    </div>
+    <!-- End: Projects Clean -->
+    <!-- Start: Article List -->
+    <div class="article-list">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Blog</h2>
+                <p class="text-center">Our cutomers and partners love to share their camping wisdom with you, here are some of the things they have to say...</p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Articles -->
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="http://localhost:3000/assets/blog/nswcamping.jpg"></a>
+                    <h3 class="name">Best spots for camping in NSW</h3>
+                    <p class="description">Greater NSW has so much to offer. Check out this article of some of the best hidden gems we have put into a convenient ranked list for you. </p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="http://localhost:3000/assets/blog/bluemountains.jpg"></a>
+                    <h3 class="name">Retreat to the blue mountains</h3>
+                    <p class="description">Its easy to get lost in the Blue Mountains, so take the pressure off yourself and see what we think are some of the best spots to have a weekend away with your lover.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div
+                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="http://localhost:3000/assets/blog/campingessentials.jpg"></a>
+                <h3 class="name">Essentials for first time campers</h3>
+                <p class="description">We talked to the experts so that you dont have to. Here is a list of camping essentials that you should never leave home without.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+    </div>
+    <!-- End: Articles -->
+    </div>
+    </div>
+    <!-- End: Article List -->
+    <!-- Start: Testimonials -->
+    <div class="testimonials-clean">
+        <div class="container bg-light">
+            <!-- Start: Intro -->
+            <div class="intro">
+                <h2 class="text-center">Testimonials </h2>
+                <p class="text-center">Our customers love us! Read what they have to say below.</p>
+            </div>
+            <!-- End: Intro -->
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">This is really great for me as I like to travel and I dont want to purchase my gear.</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="http://localhost:3000/assets/testimonials/avatar-default.jpg">
+                        <h5 class="name">John Doe</h5>
+                        <p class="title">Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">Excellent service, the whole process of hiring the equiptment I needed was seemless from start to finish.</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="http://localhost:3000/assets/testimonials/avatar-default.jpg">
+                        <h5 class="name">Emma Finley</h5>
+                        <p class="title">Journalist and Adventurer</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box">
+                        <p class="description">What a great idea, I only wish I found Campingo sooner!</p>
+                    </div>
+                    <div class="author"><img class="rounded-circle" src="http://localhost:3000/assets/testimonials/avatar-default.jpg">
+                        <h5 class="name">Tina Morrison</h5>
+                        <p class="title">Bar Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: Testimonials -->
+    <!-- Start: Testimonials -->
+    <div class="testimonials-clean"></div>
+    <!-- End: Testimonials -->
+    <!-- Start: Footer Basic -->
+    <div class="footer-basic">
+        <footer>
+            <!-- Start: Social Icons -->
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <!-- End: Social Icons -->
+            <!-- Start: Links -->
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <!-- End: Links -->
+            <!-- Start: Copyright -->
+            <p class="copyright">Campingo © 2020</p>
+            <!-- End: Copyright -->
+        </footer>
+    </div>
+    <!-- End: Footer Basic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

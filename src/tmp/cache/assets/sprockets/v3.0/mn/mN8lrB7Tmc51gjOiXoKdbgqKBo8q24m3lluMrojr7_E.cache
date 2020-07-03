@@ -1,0 +1,13 @@
+I"Ó(function() {
+  jQuery(function() {});
+
+  $('#listing_avaialable_from').datepicker({
+    dateFormat: 'dd-mm-yy'
+  });
+
+  $('#listing_avaialable_to').datepicker({
+    dateFormat: 'dd-mm-yy'
+  });
+
+}).call(this);
+:ET
